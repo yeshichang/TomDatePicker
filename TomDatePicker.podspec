@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TomDatePicker"
-s.version      = "1.0"
+s.version      = "1.01"
 s.summary      = "A small date selection"
 s.homepage     = "https://github.com/yeshichang/TomDatePicker"
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
