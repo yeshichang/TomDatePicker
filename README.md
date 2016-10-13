@@ -5,11 +5,11 @@ A small date selection
 A very simple call system datePicker gadget
 
 # Examples
-
+// viewDidLoad function
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 
+    // Do any additional setup after loading the view, typically from a nib.
     __weak ViewController *weakSelf = self;
     [[DateKeyboardManager sharedManager] dateKeyboard:self.myTextField isFromNow:NO textFeildBegin:^(NSString *DateString) {
     weakSelf.myTextField.text = DateString;
