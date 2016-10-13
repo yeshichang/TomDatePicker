@@ -2,7 +2,7 @@
 A small date selection
 
 # Contents
-A very simple call system datePicker gadget
+A very simple call system datePicker gadget and support cocoaPods
 
 #Examples
 // viewDidLoad function
