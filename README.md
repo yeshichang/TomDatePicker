@@ -1,10 +1,10 @@
-## TomDatePicker
+# TomDatePicker
 A small date selection
 
-## Contents
+# Contents
 A very simple call system datePicker gadget
 
-## Examples
+# Examples
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -14,4 +14,5 @@ A very simple call system datePicker gadget
     [[DateKeyboardManager sharedManager] dateKeyboard:self.myTextField isFromNow:NO textFeildBegin:^(NSString *DateString) {
     weakSelf.myTextField.text = DateString;
     }];
+
 }
