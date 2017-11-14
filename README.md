@@ -5,8 +5,8 @@ A small date selection
 # Contents
 A very simple call system datePicker gadget and support cocoaPods
 
-#Examples
-// viewDidLoad function
+# Examples
+- (void)viewDidLoad {
     [super viewDidLoad];
     __weak ViewController *weakSelf = self;
     [[DateKeyboardManager sharedManager] dateKeyboard:self.myTextField isFromNow:NO textFeildBegin:^(NSString *DateString) {
